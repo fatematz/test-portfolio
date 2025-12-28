@@ -1,0 +1,192 @@
+@media (min-width:992px) and (max-width: 1300px) {
+
+    .hero-contant {
+        flex-direction: column;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .card-box {
+        padding: 0px 20px;
+        flex-wrap: wrap;
+    }
+    .hero-1 h1,
+    .hero-1 p {
+        text-align: center;
+        margin: 5% 16%;
+    }
+
+    .hero-btn {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .pro-card {
+        margin: 40px 20px;
+    }
+
+
+}
+
+
+@media (min-width: 640px) and (max-width: 991px) {
+
+    .hero-contant {
+        flex-direction: column;
+    }
+
+    .card-box {
+        padding: 0px 20px;
+        flex-wrap: wrap;
+    }
+
+    .hero-1 h1,
+    .hero-1 p {
+        text-align: center;
+        margin: 5% 16%;
+    }
+
+    .hero-btn {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .pro-card {
+        margin: 40px 20px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 639px) {
+
+    /* hero-sectoion  */
+
+    .hero-contant {
+        flex-wrap: wrap;
+        gap: 70px;
+            flex-direction: column;
+    }
+
+
+    .hero-1 h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .hero-1 p {
+        font-size: 14px;
+        text-align: center;
+        margin: 0px 20px 20px 20px;
+
+    }
+
+    .hero-btn {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
+    }
+
+    .explore {
+        padding: 5px 10px;
+    }
+
+    .explore {
+        font-size: 12px;
+    }
+    /* skill section  */
+
+    .skills {
+        padding-top: 50px;
+    }
+
+    .card-box {
+        flex-wrap: wrap;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .heading h4 {
+        font-size: 16px;
+    }
+
+    .heading h1 {
+        font-size: 28px;
+        margin-top: 5px;
+    }
+
+    /* project section  */
+
+    .hero-2 .hero-img img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .pro-card {
+        flex-wrap: wrap;
+    }
+
+    .card-box {
+        gap: 10px;
+    }
+
+    .card {
+        padding: 10px;
+    }
+
+    .card img {
+        width: 70px;
+        margin: 5px;
+    }
+
+    .card p {
+        font-size: 15px;
+        margin: 15px 0px;
+    }
+
+    .card a {
+        font-size: 14px;
+    }
+
+    /* project  */
+
+    .doctorian h1 {
+        font-size: 27px;
+        margin-top: 10px;
+    }
+
+    .pro-card {
+        padding: 20px;
+        max-width: 300px;
+        width: 100%;
+        margin: 20px auto;
+        
+    }
+
+    .about-phn p{
+        font-size: 16px;
+    }
+    
+    .about-phn2 p{
+        font-size: 16px;
+    }
+
+    .img img {
+        max-width: 200px;
+    }
+
+    /* footer  */
+    .footer {
+        font-size: 11px;
+    }
+
+}
